@@ -1,5 +1,12 @@
 /*------------------------------------- Generic Styles*/
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*------------------------------------- Header title*/
+
 .header-title {
     background-color: rgba(3, 15, 15, 0.548);
 }
@@ -7,17 +14,25 @@
 h1 {
     color: aliceblue;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
-.uppercase {
-    text-transform: uppercase;
+h1:hover {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    transition: 0.5s;
 }
+
+.title-link:hover {
+    text-decoration: none;
+}
+
 
 /*-------------------------------------Menu/Nav*/
 
 .menucontainer {
     font-size: 0;
-    margin-top: 10px;
 }
 
 
@@ -31,18 +46,82 @@ h1 {
 
 .menu-item {
     text-align: center;
-    height: 50px;
+    height: 75px;
 }
 
 .menu-item a {
     text-decoration: none;
     width: 100%;
-    padding-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.nav-col {
+    padding: 0;
+}
+
+#nav {
+  margin-bottom: 0;
 }
 
 #nav li {
-    font-size: 14px;
     padding: 0;
+    padding-top: 18px;
     margin: 0;
+    border: 1px solid;
+}
+
+#nav li:hover {
+    background-color: rgba(3, 15, 15, 0.771);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#nav li i {
+    color: aliceblue;
+}
+
+#nav li span:hover {
+    color: rgb(186, 190, 193);
+    transition: 0.5s;
+}
+
+/*------------------------------------------ Main section*/
+
+section {
+    height: 759px;
+    background: url(../images/rs_1024x759-170714115653-1024-generic-restaurant.avif) no-repeat center center/cover;
+}
+
+
+/*------------------------------------------ Footer */
+
+footer {
+    position: relative;
+    top: 100%;
+}
+
+.footer-items {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 10px;
+}
+
+.footer-items span {
+    font-size: 20px;
+}
+
+.copyright {
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.footer-list i {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.footer-list i:hover {
+    color: rgba(249, 194, 91, 0.905);
+    transition: 0.5s;
 }
