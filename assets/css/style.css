@@ -1,0 +1,48 @@
+/*------------------------------------- Generic Styles*/
+
+.header-title {
+    background-color: rgba(3, 15, 15, 0.548);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------------------------------------Menu/Nav*/
+
+.menucontainer {
+    font-size: 0;
+    margin-top: 10px;
+}
+
+
+.bg-color-menu {
+    background:  rgba(3, 15, 15, 0.548);
+}
+
+.menu-item-color {
+    color: aliceblue;
+}
+
+.menu-item {
+    text-align: center;
+    height: 50px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
