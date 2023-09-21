@@ -153,11 +153,34 @@ section {
 }
 
 
+/*------------------------------------------ Contact*/
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    border: 1px solid
+}
+
+.contact-row {
+    margin-top: 150px;
+}
+
+.contact h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    border: 1px solid
+}
+
 /*------------------------------------------ Footer */
 
 footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
