@@ -2,7 +2,6 @@
 
 html {
     min-height: 100%;
-    position: relative;
 }
 
 .uppercase {
@@ -41,7 +40,7 @@ h1:hover {
 
 
 .bg-color-menu {
-    background:  rgba(3, 15, 15, 0.548);
+    background: rgba(3, 15, 15, 0.548);
 }
 
 .menu-item-color {
@@ -64,7 +63,7 @@ h1:hover {
 }
 
 #nav {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #nav li {
@@ -95,6 +94,7 @@ section {
     height: 759px;
     background: url(../images/rs_1024x759-170714115653-1024-generic-restaurant.avif) no-repeat center center/cover;
     z-index: 0;
+    background-attachment: fixed;
 }
 
 /*------------------------------------------ Home page*/
@@ -121,7 +121,7 @@ section {
     background-color: rgba(0, 0, 0, 0.692);
     color: aliceblue;
     font-size: 20px;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px 10px 40px;
     border-radius: 15%;
 }
 
@@ -131,21 +131,34 @@ section {
     z-index: 1;
     border-radius: 50%;
     height: 250px;
-    margin-left: 50px;
-   
 }
 
 .about-us-row {
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+/*------------------------------------------ Book page*/
+
+.book-table {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.modal {
+    color: black;
 }
 
 
 /*------------------------------------------ Footer */
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-container {
