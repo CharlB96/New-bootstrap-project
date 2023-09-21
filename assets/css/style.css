@@ -1,9 +1,13 @@
 /*------------------------------------- Generic Styles*/
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
-
 
 /*------------------------------------- Header title*/
 
@@ -92,12 +96,46 @@ section {
     background: url(../images/rs_1024x759-170714115653-1024-generic-restaurant.avif) no-repeat center center/cover;
 }
 
+/*------------------------------------------ Home page*/
+
+.opening-times {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 40%;
+    margin: 30px 20px;
+    height: 200px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.opening-times h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-us {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10%;
+}
+
+
 
 /*------------------------------------------ Footer */
 
 footer {
-    position: relative;
-    top: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+    padding: 0;
 }
 
 .footer-items {
