@@ -132,7 +132,6 @@ section {
 
 .family-dinner {
     background: url(../images/pexels-fauxels-3184183.jpg) no-repeat center center/cover;
-    height: auto;
     z-index: 1;
     border-radius: 50%;
     height: 250px;
