@@ -1,7 +1,7 @@
 /*------------------------------------- Generic Styles*/
 
-html {
-    min-height: 100%;
+body {
+    min-height: 100vh;
 }
 
 .uppercase {
@@ -88,6 +88,11 @@ h1:hover {
     transition: 0.5s;
 }
 
+#nav li i:hover {
+    color: rgb(186, 190, 193);
+    transition: 0.5s;
+}
+
 /*------------------------------------------ Main section*/
 
 section {
@@ -163,7 +168,7 @@ section {
     background-color: rgba(0, 0, 0, 0.692);
     color: aliceblue;
     font-size: 30px;
-    padding: 20px 20px 0 20px;
+    padding: 20px 0 0 0;
     text-align: center;
     border: 1px solid
 }
