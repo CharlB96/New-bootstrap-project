@@ -64,44 +64,47 @@
                         <li>Sunday: Closed</li>
                     </ul>
                 </div>
-                <div class="col-12 book-table">
-                    <h2>Book a table here!</h2>
-                    <!--Booking Modal-->
-                    <!-- Button to Open the Modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                        Open modal
-                    </button>
+                <div class="row no-gutters book-table-row">
+                    <div class="col-12 book-table">
+                        <h2>Book a table here!</h2>
+                        <!--Booking Modal-->
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            Open modal
+                        </button>
 
-                    <!-- The Modal -->
-                    <div class="modal" id="myModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
 
-                                <!-- Modal Header -->
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Book a table</h4>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-
-                                <!-- Modal body -->
-                                <div class="modal-body">
-                                    <p>Input a time and a date and we will get back to you with what's available.</p>
-                                    <div>
-                                        <label for="date">Preferred date</label>
-                                        <input id="date" type="date">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Book a table</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     </div>
-                                    <div>
-                                        <label for="time">Preffered time</label>
-                                        <input id="time" type="time">
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <p>Input a time and a date and we will get back to you with what's available.
+                                        </p>
+                                        <div>
+                                            <label for="date">Preferred date</label>
+                                            <input id="date" type="date">
+                                        </div>
+                                        <div>
+                                            <label for="time">Preffered time</label>
+                                            <input id="time" type="time">
+                                        </div>
                                     </div>
-                                </div>
 
-                                <!-- Modal footer -->
-                                <div class="modal-footer">
-                                    <button type="submit" class="btn btn-success">Book</button>
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-success">Book</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>

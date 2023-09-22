@@ -148,6 +148,10 @@ section {
     padding-top: 10px;
 }
 
+.book-table-row {
+    margin-top: 150px;
+}
+
 .modal {
     color: black;
 }
