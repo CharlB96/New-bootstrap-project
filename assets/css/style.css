@@ -233,7 +233,19 @@ footer {
     color: aliceblue;
 }
 
-.footer-list i:hover {
-    color: rgba(249, 194, 91, 0.905);
+.footer-list .fa-square-facebook:hover {
+    color: rgba(98, 114, 237, 0.905);
     transition: 0.5s;
 }
+
+.footer-list .fa-square-twitter:hover {
+    color: rgba(63, 193, 248, 0.905);
+    transition: 0.5s
+}
+
+.footer-list .fa-instagram:hover {
+    color: rgba(205, 115, 238, 0.905);
+    transition: 0.5s;
+}
+   
+
