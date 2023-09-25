@@ -93,6 +93,13 @@ h1:hover {
     transition: 0.5s;
 }
 
+.active {
+    color: rgb(186, 190, 193);
+    background-color: rgba(3, 15, 15, 0.771);
+    opacity: 1;
+    border: 1px solid black;
+}
+
 .dropdown {
     padding-top: 35px;
 }
@@ -149,8 +156,9 @@ section {
 .family-dinner {
     background: url(../images/pexels-fauxels-3184183.jpg) no-repeat center center/cover;
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 250px;
     height: 250px;
+    width: 250px;
 }
 
 .about-us-row {
@@ -244,7 +252,7 @@ footer {
 }
 
 .footer-list .fa-instagram:hover {
-    color: rgba(205, 115, 238, 0.905);
+    color: rgba(159, 25, 208, 0.905);
     transition: 0.5s;
 }
    
