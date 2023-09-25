@@ -93,6 +93,18 @@ h1:hover {
     transition: 0.5s;
 }
 
+.dropdown {
+    padding-top: 35px;
+}
+
+.dropdown-menu {
+    min-width: 10px;
+}
+
+button i {
+    font-size: 30px;
+}
+
 .dropdown-toggle::after {
     content: none;
 }

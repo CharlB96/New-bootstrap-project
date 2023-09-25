@@ -16,31 +16,50 @@
     <header class="container-fluid">
         <!--Page title-->
         <div class="row no-gutters">
-            <div class="col-12">
+            <div class="col">
                 <div class="row header-title">
-                    <div class="col">
+                    <div class="col-sm-12 col-9">
                         <a href="index.html" class="title-link">
                             <h1 class="uppercase">Generic Restaurant</h1>
                         </a>
                     </div>
+                    <!--Dropdown-->
+                    <nav class="col-2 dropdown d-block d-sm-none">
+                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="#dropdownMenu2">
+                            <a href="index.html" aria-label="Go to home page"><button class="dropdown-item"
+                                    type="button">Home</button></a>
+                            <a href="book.html" aria-label="Book a table"><button class="dropdown-item"
+                                    type="button">Book</button></a>
+                            <a href="contact.html" aria-label="Contact us"><button class="dropdown-item"
+                                    type="button">Contact</button></a>
+                            <a href="menu/menu.png" target="_blank"
+                                aria-label="See our menu here (opens in a new tab)"><button class="dropdown-item"
+                                    type="button">Menu</button></a>
+                        </div>
+                    </nav>
                 </div>
                 <!--Nav-bar-->
-                <div class="row">
+                <nav class="row d-none d-sm-block nav-bar">
                     <div class="col nav-col">
                         <ul id="nav" class="list-inline no-gutters menucontainer">
-                            <li class="col-6 col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
+                            <li class="col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
                                 <a href="index.html" aria-label="Go to home page"><i
-                                    class="fa-solid fa-house-chimney"></i> <span class="menu-item-color">Home</span></a>
+                                        class="fa-solid fa-house-chimney"></i> <span
+                                        class="menu-item-color">Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
+                            <li class="col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
                                 <a href="book.html" aria-label="Book a table"><i class="fa-solid fa-utensils"></i> <span
                                         class="menu-item-color">Book</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
+                            <li class="col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
                                 <a href="contact.html" aria-label="Contact us"><i class="fa-solid fa-phone"></i> <span
                                         class="menu-item-color">Contact</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
+                            <li class="col-sm-3 uppercase bg-color-menu list-inline-item menu-item">
                                 <a href="menu/menu.png" target="_blank"
                                     aria-label="See our menu here (opens in a new tab)"><i
                                         class="fa-regular fa-rectangle-list"></i> <span
@@ -48,7 +67,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
 
