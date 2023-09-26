@@ -8,10 +8,22 @@ body {
     text-transform: uppercase;
 }
 
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: #ff5f33;
+    inherits: false;
+}
+
+@property --myColor2 {
+    syntax: '<color>';
+    initial-value: #faa64c;
+    inherits: false;
+}
+
 /*------------------------------------- Header title*/
 
 .header-title {
-    background-color: rgba(40, 156, 245, 0.608);
+    background: linear-gradient(to bottom, #33ccff 0%, #df81f9 100%);
 }
 
 h1 {
@@ -22,9 +34,10 @@ h1 {
 }
 
 h1:hover {
-    color: rgb(245, 219, 68);
+    color: rgb(0, 0, 0);
     opacity: 1;
     transition: 0.5s;
+    text-shadow: none;
 }
 
 .title-link:hover {
@@ -40,11 +53,13 @@ h1:hover {
 
 
 .bg-color-menu {
-    background: rgba(240, 57, 24, 0.629);
+    background: linear-gradient(var(--myColor1), var(--myColor2));
+    transition: --myColor1 0.5s, --myColor2 0.5s;
 }
 
 .menu-item-color {
     color: aliceblue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .menu-item {
@@ -74,28 +89,31 @@ h1:hover {
 }
 
 #nav li:hover {
-    background-color: rgba(240, 135, 23, 0.667);
-    opacity: 1;
-    transition: 0.5s;
+    --myColor1: #fff420;
+    --myColor2: #fffa99;
+    
 }
 
 #nav li i {
     color: aliceblue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #nav li span:hover {
-    color: rgba(240, 225, 23, 0.667);
+    color: black;
     transition: 0.5s;
+    text-shadow: none;
 }
 
 #nav li i:hover {
-    color: rgba(240, 225, 23, 0.667);
+    color: black;
     transition: 0.5s;
+    text-shadow: none;
 }
 
 .active {
     color: rgb(1, 9, 17);
-    background-color: rgba(40, 156, 245, 0.608);
+    background: linear-gradient(to top, #33ccff 0%, #df81f9 100%);
     opacity: 1;
     border: 1px solid black;
 }
@@ -263,5 +281,3 @@ footer {
     color: rgba(159, 25, 208, 0.905);
     transition: 0.5s;
 }
-   
-
