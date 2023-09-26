@@ -11,7 +11,7 @@ body {
 /*------------------------------------- Header title*/
 
 .header-title {
-    background-color: rgba(3, 15, 15, 0.548);
+    background-color: rgba(40, 156, 245, 0.608);
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
 }
 
 h1:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(245, 219, 68);
     opacity: 1;
     transition: 0.5s;
 }
@@ -40,7 +40,7 @@ h1:hover {
 
 
 .bg-color-menu {
-    background: rgba(3, 15, 15, 0.548);
+    background: rgba(240, 57, 24, 0.629);
 }
 
 .menu-item-color {
@@ -74,7 +74,7 @@ h1:hover {
 }
 
 #nav li:hover {
-    background-color: rgba(3, 15, 15, 0.771);
+    background-color: rgba(240, 135, 23, 0.667);
     opacity: 1;
     transition: 0.5s;
 }
@@ -84,18 +84,18 @@ h1:hover {
 }
 
 #nav li span:hover {
-    color: rgb(186, 190, 193);
+    color: rgba(240, 225, 23, 0.667);
     transition: 0.5s;
 }
 
 #nav li i:hover {
-    color: rgb(186, 190, 193);
+    color: rgba(240, 225, 23, 0.667);
     transition: 0.5s;
 }
 
 .active {
-    color: rgb(186, 190, 193);
-    background-color: rgba(3, 15, 15, 0.771);
+    color: rgb(1, 9, 17);
+    background-color: rgba(40, 156, 245, 0.608);
     opacity: 1;
     border: 1px solid black;
 }
