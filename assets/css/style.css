@@ -125,7 +125,13 @@ section {
     background-attachment: fixed;
 }
 
-/*------------------------------------------ Home page*/
+.free-meals {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px 0;
+}
 
 .opening-times {
     background-color: rgba(0, 0, 0, 0.692);
@@ -144,6 +150,8 @@ section {
     text-align: center;
     text-decoration: underline;
 }
+
+/*------------------------------------------ Home page*/
 
 .about-us {
     background-color: rgba(0, 0, 0, 0.692);
