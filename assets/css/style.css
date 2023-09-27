@@ -131,7 +131,7 @@ button i {
 section {
     height: 100vh;
     position: relative;
-    background-color: rgba(93, 92, 92, 0.551);
+    background-color: rgba(122, 122, 122, 0.551);
 }
 
 .section-bg-img::before {
