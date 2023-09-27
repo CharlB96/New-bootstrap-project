@@ -16,14 +16,14 @@ body {
 
 @property --myColor2 {
     syntax: '<color>';
-    initial-value: #faa64c;
+    initial-value: #cf0303;
     inherits: false;
 }
 
 /*------------------------------------- Header title*/
 
 .header-title {
-    background: linear-gradient(to bottom, #1a71f3ea 0%, #ff5f33 100%);
+    background: linear-gradient(to bottom, #d5832cc1 0%, #ff5f33 100%);
 }
 
 h1 {
@@ -31,6 +31,7 @@ h1 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h1:hover {
@@ -89,10 +90,10 @@ h1:hover {
 }
 
 #nav li:hover {
-    --myColor1: #fff420;
-    --myColor2: #fffa99;
+    --myColor1: #ff5f33;
+    --myColor2: #d5832cc1;
     
-}
+}  
 
 #nav li i {
     color: aliceblue;
@@ -113,7 +114,7 @@ h1:hover {
 
 .active {
     color: rgb(1, 9, 17);
-    background: linear-gradient(to top, #1a71f3ea 0%, #ff5f33 100%);
+    background: linear-gradient(to top, #d5832cc1 0%, #ff5f33 100%);
     opacity: 1;
     border: 1px solid black;
 }
