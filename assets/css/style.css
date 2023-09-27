@@ -6,20 +6,20 @@
 
 @property --myColor1 {
     syntax: '<color>';
-    initial-value: #ff5f33;
+    initial-value: #ff5f33db;
     inherits: false;
 }
 
 @property --myColor2 {
     syntax: '<color>';
-    initial-value: #cf0303;
+    initial-value: #cf0303b9;
     inherits: false;
 }
 
 /*------------------------------------- Header title*/
 
 .header-title {
-    background: linear-gradient(to bottom, #d5832cc1 0%, #ff5f33 100%);
+    background: linear-gradient(to bottom, #d5832cbc 0%, #ff5f33db 100%);
 }
 
 h1 {
@@ -130,10 +130,20 @@ button i {
 
 section {
     height: 100vh;
-    background: url(../images/rs_1024x759-170714115653-1024-generic-restaurant.avif) no-repeat center center/cover;
-    z-index: -1;
-    background-attachment: fixed;
     position: relative;
+    background-color: rgba(93, 92, 92, 0.551);
+}
+
+.section-bg-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/rs_1024x759-170714115653-1024-generic-restaurant.avif) no-repeat center center/cover;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 .free-meals {
