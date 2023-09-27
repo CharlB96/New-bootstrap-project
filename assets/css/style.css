@@ -1,9 +1,5 @@
 /*------------------------------------- Generic Styles*/
 
-body {
-    min-height: 100vh;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -107,8 +103,12 @@ h1:hover {
     border: 1px solid black;
 }
 
+.dropdown-nav {
+    padding: 35px;
+}
+
 .dropdown {
-    padding-top: 35px;
+    padding: 0;
 }
 
 .dropdown-menu {
@@ -117,7 +117,10 @@ h1:hover {
 
 button i {
     font-size: 30px;
+    color: aliceblue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 
 .dropdown-toggle::after {
     content: none;
@@ -126,10 +129,11 @@ button i {
 /*------------------------------------------ Main section*/
 
 section {
-    height: 759px;
+    height: 100vh;
     background: url(../images/rs_1024x759-170714115653-1024-generic-restaurant.avif) no-repeat center center/cover;
-    z-index: 0;
+    z-index: -1;
     background-attachment: fixed;
+    position: relative;
 }
 
 .free-meals {
